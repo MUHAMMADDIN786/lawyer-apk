@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lawyer's Diary — Download</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0B1210;
+    --card: #10201C;
+    --text: #EAF2EE;
+    --muted: #9AB0A8;
+    --accent: #2ea44f;
+    --accent-dark: #22863a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #10251F 0%, var(--bg) 60%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px;
+  }
+  main {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+  }
+  img.icon {
+    width: 110px;
+    height: 110px;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+  p.tagline {
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 32px;
+  }
+  a.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 16px 28px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(46,164,79,0.35);
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+  a.download-btn:hover {
+    background: var(--accent-dark);
+    transform: translateY(-1px);
+  }
+  p.meta {
+    color: var(--muted);
+    font-size: 13px;
+    margin: 16px 0 0;
+  }
+  .steps {
+    text-align: left;
+    background: var(--card);
+    border-radius: 16px;
+    padding: 24px 24px;
+    margin-top: 40px;
+  }
+  .steps h2 {
+    font-size: 16px;
+    margin: 0 0 14px;
+  }
+  .steps ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text);
+  }
+  .steps .note {
+    margin: 14px 0 0;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  details {
+    text-align: left;
+    background: var(--card);
+    border-radius: 16px;
+    padding: 18px 24px;
+    margin-top: 16px;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  details p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--muted);
+    margin: 12px 0 0;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Lawyer's Diary icon" />
+  <h1>Lawyer's Diary</h1>
+  <p class="tagline">The case &amp; hearing diary built for Pakistani lawyers — offline-first, free to try.</p>
+
+  <a class="download-btn" href="https://github.com/MUHAMMADDIN786/lawyer-apk/releases/latest/download/lawyers-diary-latest.apk" download>
+    ⬇️ Download APK
+  </a>
+  <p class="meta">v1.1.0 &nbsp;·&nbsp; ~90 MB &nbsp;·&nbsp; Android</p>
+
+  <div class="steps">
+    <h2>How to install (under a minute)</h2>
+    <ol>
+      <li>Tap the green button above — the file downloads to your phone</li>
+      <li>Open the downloaded file</li>
+      <li>Android will show a security prompt — tap <strong>Settings</strong>, turn on <strong>Allow from this source</strong>, then go back and tap <strong>Install</strong></li>
+    </ol>
+    <p class="note">That prompt is normal. It only shows up because this app is installed directly instead of through the Play Store — it doesn't mean anything is wrong.</p>
+  </div>
+
+  <details>
+    <summary>About this app</summary>
+    <p>Keep every case, hearing date, and client on your phone — no internet needed. Add an optional cloud backup when you want one, and invite an associate to help manage your caseload with their own permissions.</p>
+    <p>Built by an independent developer, not a big firm — just a tool made to fit how Pakistani lawyers actually keep their diary.</p>
+  </details>
+
+  <footer>
+    Lawyer's Diary &middot; <a href="https://github.com/MUHAMMADDIN786/lawyer-apk">source repo</a>
+  </footer>
+</main>
+</body>
+</html>
